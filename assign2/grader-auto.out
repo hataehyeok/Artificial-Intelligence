@@ -1,0 +1,130 @@
+extraCredit: 0
+fatalError: false
+maxExtraCredit: 0
+maxTotalPoints: 11
+messages: []
+mode: auto
+parts:
+- description: ''
+  extraCredit: false
+  maxPoints: 2
+  maxSeconds: 1
+  messages: []
+  name: 1a-1-hidden
+  points: 0
+  seconds: 0
+- description: basic test
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 1
+  messages: []
+  name: 2a-0-basic
+  points: 1
+  seconds: 0
+- description: test multiple instances of the same word in a sentence
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 1
+  messages: []
+  name: 2a-1-hidden
+  points: 0
+  seconds: 0
+- description: basic sanity check for learning correct weights on two training and
+    testing examples each
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 1
+  messages: []
+  name: 2b-0-basic
+  points: 1
+  seconds: 0
+- description: test correct overriding of positive weight due to one negative instance
+    with repeated words
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 1
+  messages: []
+  name: 2b-1-basic
+  points: 1
+  seconds: 0
+- description: test classifier on real polarity dev dataset
+  extraCredit: false
+  maxPoints: 6
+  maxSeconds: 8
+  messages: []
+  name: 2b-2-basic
+  points: 6
+  seconds: 0
+- description: test basic ngram features
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 1
+  messages: []
+  name: 2c-0-basic
+  points: 1
+  seconds: 0
+- description: test feature extraction on random sentence and random length
+  extraCredit: false
+  maxPoints: 2
+  maxSeconds: 1
+  messages: []
+  name: 2c-1-hidden
+  points: 0
+  seconds: 0
+- description: ''
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 1
+  messages: []
+  name: 3a-1-hidden
+  points: 0
+  seconds: 0
+- description: ''
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 1
+  messages: []
+  name: 3a-2-hidden
+  points: 0
+  seconds: 0
+- description: test basic k-means on hardcoded datapoints
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 1
+  messages: []
+  name: 3b-0-basic
+  points: 1
+  seconds: 0
+- description: ''
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 3
+  messages: []
+  name: 3b-1-hidden
+  points: 0
+  seconds: 0
+- description: ''
+  extraCredit: false
+  maxPoints: 2
+  maxSeconds: 3
+  messages: []
+  name: 3b-2-hidden
+  points: 0
+  seconds: 0
+- description: make sure the code runs fast enough
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 4
+  messages: []
+  name: 3b-3-hidden
+  points: 0
+  seconds: 0
+- description: make sure the code runs fast enough
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 4
+  messages: []
+  name: 3b-4-hidden
+  points: 0
+  seconds: 0
+totalPoints: 11

@@ -1,0 +1,16 @@
+extraCredit: 0
+fatalError: false
+maxExtraCredit: 0
+maxTotalPoints: 1
+messages: []
+mode: auto
+parts:
+- description: ''
+  extraCredit: false
+  maxPoints: 1
+  maxSeconds: 5
+  messages: []
+  name: 2a-0-basic
+  points: 1
+  seconds: 0
+totalPoints: 1
